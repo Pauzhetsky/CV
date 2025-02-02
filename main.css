@@ -1,16 +1,29 @@
 body {
     color: rgb(0, 0, 0);
-    background-color: rgb(63, 187, 152);
+    background-color: rgb(138, 198, 181);
+    width: 240px;
+    height: 300px;
+    margin: 40px;
+    padding: 15px 15px;
+    border: 10px solid hotpink;
   }
 
   .whatsapp,
   .telegram,
   .youtube {
     text-decoration: none;
-    color: #870b45;
+    color: #231a1f;
   }
 
   table {
     width: 300px;
     text-align: center;
   }
+
+  .photo {
+    width: 240px;
+    height: 300px;
+  }
+  
+  
+  
