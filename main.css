@@ -31,12 +31,12 @@ body {
   margin: auto;
 }
 
-/* .social {
+.social {
   background:	#faebd7;
   padding: 15px;
-  border: 5px solid grey;
-  margin: 20px;
-} */
+  /* border: 5px solid grey;
+  margin: 20px; */
+}
 
 /* .box-model div {
   background: #0f141e;
