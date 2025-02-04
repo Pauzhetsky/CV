@@ -10,13 +10,16 @@
     <div class="container">
         <div class="info">
             <img class="photo" src="source/imgages/IMG_9825.jpeg" alt="Тут моё фото">
-            <h1>Александр Казанцев</h1>
-            <p>Frontend Developer</p>
-            <br>
-            <h3>Контакты для связи</h3>
-            <a class="whatsapp" href="https://wa.me/+79065722500" target="_blank">Мой WhatsApp</a>
-            |
-            <a class="telegram" href="https://t.me/Pauzhetsky" target="_blank">Мой Telegram</a>
+
+            <div class="info-text">
+                <h1>Александр Казанцев</h1>
+                <p>Frontend Developer</p>
+                <br>
+                <h3>Контакты для связи</h3>
+                <a class="whatsapp" href="https://wa.me/+79065722500" target="_blank">Мой WhatsApp</a>
+                |
+                <a class="telegram" href="https://t.me/Pauzhetsky" target="_blank">Мой Telegram</a>
+            </div>
         </div>
         <div class="card bg-yellow">
             <h3>Навыки</h3>
@@ -26,23 +29,22 @@
                 <li>JavaScript</li>
                 <li>PHP</li>
                 <li>Git (GitHub)</li>
-                <li>PostgreSQL</li>
                 <li>Английский B1</li>
             </ol>
         </div>
 
         <div class="card bg-green">
-            <h3>Учёба</h3>
+            <h3>Образование</h3>
             <table class="table">
                 <tr>
                     <td>Академия ГЗ МЧС России<br>(инженерный факультет)</td>
-                    <td>август 2010 - июнь 2014</td>
+                    <td>июнь 2014</td>
                     <td>Техносферная безопасность</td>
                 </tr>
                 <tr>
-                    <td>Самообразование</td>
+                    <td>Самостоятельное изучение</td>
                     <td>начал в ноябре 2024</td>
-                    <td>Frontend Developer</td>
+                    <td>Frontend Development</td>
                 </tr>
             </table>
         </div>
@@ -54,20 +56,31 @@
             </p>
         </div>
 
-        <div class="card">
-            <h2>Связаться со мной</h2>
-            <form action="/">
-                <label for="name">Ваше имя</label><br>
-                <input type="text" id="name" placeholder="Напишите своё имя">
-                <br>
-                <label for="email">Ваш Email</label><br>
-                <input type="email" id="email" placeholder="Напишите свой Email">
-                <label for="text"><br>Ваше сообщение</label><br>
-                <textarea id="text" rows="2" cols="15" placeholder="Ваш текст"></textarea>
-                <br>
-                <input type="submit" value="Связаться со мной">
-            </form>
+        <div class="contact">
+            <div class="card">
+                <h2>Связаться со мной</h2>
+                <form action="/">
+                    <div class="row">
+                        <div class="form-grout">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Напишите своё имя">
+                        </div>
+                        <div class="form-grout">
+                            <label for="email">Ваш email</label>
+                            <input type="email" id="email" placeholder="Напишите свой email">
+                        </div>
+                    </div>
+
+                    <div class="form-grout">
+                        <label for="text"><br>Ваше сообщение</label>
+                        <textarea id="text" rows="2" cols="15" placeholder="Напишите ваш текст"></textarea>
+                    </div>
+
+                    <input class="btn" type="submit" value="Связаться со мной">
+                </form>
+            </div>
         </div>
+
     </div>
 
 
