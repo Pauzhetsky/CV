@@ -46,8 +46,8 @@ a:active {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  word-spacing: 5px;
+  letter-spacing: 16px;
+  word-spacing: 10px;
 }
 
 .info {
