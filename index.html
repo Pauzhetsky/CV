@@ -59,21 +59,21 @@
         <div class="contact">
             <div class="card">
                 <h2>Связаться со мной</h2>
-                <form action="/">
+                <form action="email.php" method="post">
                     <div class="row">
                         <div class="form-grout">
                             <label for="name">Ваше имя</label>
-                            <input type="text" id="name" placeholder="Напишите своё имя">
+                            <input type="text" id="name" name="name" placeholder="Напишите своё имя" required>
                         </div>
                         <div class="form-grout">
                             <label for="email">Ваш email</label>
-                            <input type="email" id="email" placeholder="Напишите свой email">
+                            <input type="email" id="email" placeholder="Напишите свой email" required>
                         </div>
                     </div>
 
                     <div class="form-grout">
                         <label for="text"><br>Ваше сообщение</label>
-                        <textarea id="text" rows="2" cols="15" placeholder="Напишите ваш текст"></textarea>
+                        <textarea id="text" rows="2" cols="15" placeholder="Напишите ваш текст" required></textarea>
                     </div>
 
                     <input class="btn" type="submit" value="Связаться со мной">
