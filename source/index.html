@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pauzhetsky CV</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <img class="photo" src="source/imgages/IMG_9825.jpeg" alt="Тут моё фото">
+<p>hello</p>
+      <div class="info-text">
+        <h1>Александр Паужетский</h1>
+        <p>Frontend Developer</p>
+        <br>
+        <h3>Контакты для связи</h3>
+        <a class="whatsapp" href="https://wa.me/+79065722500" target="_blank">WhatsApp</a>
+        |
+        <a class="telegram" href="https://t.me/Pauzhetsky" target="_blank">Telegram</a>
+      </div>
+    </div>
+    <div class="card bg-yellow">
+      <h3>Навыки</h3>
+      <ol class="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>Vue.js</li>
+        <li>Английский B1</li>
+      </ol>
+    </div>
+    <div class="card bg-green">
+      <h3>Образование</h3>
+      <table class="table">
+        <tr>
+          <td>Академия гражданской защиты МЧС России<br>(инженерный факультет)</td>
+          <td>июнь 2014</td>
+          <td>Информационные системы и технологии</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card bg-red">
+      <h3>Pet-проекты</h3>
+      <p>
+        <a href="https://github.com/Pauzhetsky?tab=repositories" target="_blank">GitHub</a>
+      </p>
+    </div>
+
+    <div class="contact">
+      <div class="card">
+        <h2>Связаться со мной</h2>
+        <form action="email.php" method="post">
+          <div class="row">
+            <div class="form-grout">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" placeholder="Напишите своё имя" required>
+            </div>
+            <div class="form-grout">
+              <label for="email">Ваш email</label>
+              <input type="email" id="email" placeholder="Напишите свой email" required>
+            </div>
+          </div>
+
+          <div class="form-grout">
+            <label for="text"><br>Ваше сообщение</label>
+            <textarea id="text" rows="2" cols="15" placeholder="Напишите ваш текст" required></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Связаться со мной">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
+</body>
+
+</html>
